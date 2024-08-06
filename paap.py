@@ -13,7 +13,7 @@ import numpy as np
 import joblib
 
 # Load the model
-model = joblib.load('/content/rf_model.pkl')
+model = joblib.load('rf_model.pkl')
 
 # Define regions and counties
 regions = ['Coast', 'Eastern', 'Nairobi', 'North Eastern', 'Nyanza', 'Rift Valley', 'Western']
